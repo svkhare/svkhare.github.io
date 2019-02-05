@@ -1,0 +1,525 @@
+@import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
+#home {
+
+    background-image: url("a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 105%;
+}
+
+#main-page {
+    height: 25px;
+    width: 375px;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    background-color: #27ae60;
+    display: none;
+}
+#next-page {
+    height: 25px;
+    width: 375px;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    background-color: #e74c3c;
+    display: none;
+}
+.maincontent, .nextcontent {
+    padding-top: 40px;
+    display: none;
+}
+
+
+#name
+{
+    color: white;
+    font-size: 45px;
+    padding-top: 18%;
+    padding-left:3%;
+}
+
+.bubbles {
+    display: inline-block;
+    font-family: arial;
+    position: relative;
+}
+
+.bubbles h1 {
+    position: relative;
+    margin: 1em 0 1em;
+    color: #fff;
+    z-index: 2;
+}
+
+.individual-bubble {
+    position: absolute;
+    border-radius: 100%;
+    bottom: 10px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.button
+{
+    text-size:15px;
+    padding-top:18%;
+    padding-left:2%;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+button
+{
+    background-color:transparent;
+    color:white;
+    height: 40px;
+    width: 100px;
+    border: 4px white outset;
+    border-radius: 20px;
+
+}
+button:hover {
+    animation: bounce 1s;
+}
+
+
+#navigation
+{
+    background-color:#000E1E;
+    height:9%;
+    padding-top:1%;
+    border-bottom: #DF013A 4px solid;
+}
+
+
+#links
+{
+    text-transform: uppercase;
+    font-family:Century Gothic;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    margin-left:110px;
+
+}
+
+/*span*/
+/*{*/
+    /*margin-left: 110px;*/
+/*}*/
+
+a
+{
+    color:white;
+    text-decoration:none;
+}
+
+a:visited
+{
+    color:white;
+}
+
+a:hover
+{
+    color:#DF013A;
+}
+
+a:active
+{
+
+    color:white;
+}
+
+#about
+{
+    background-color:white;
+}
+
+svg{
+    width:90%;
+    padding-left: 15%;
+    padding-top:4%;
+    margin-top:4%;
+}
+
+.heximg
+{
+    padding-left: 20px;
+    padding-top: 05px;
+    font-family:Aharoni;
+}
+
+
+#skill
+{
+    background-color:#E2F1FE;
+    width:100%;
+    height: 100%;
+    clear: both;
+    overflow: hidden;
+}
+
+#progress {
+    list-style: none;
+    font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    width: 296px;
+    margin: 5px auto 0;
+    position: relative;
+    line-height: 2em;
+    padding: 05px 0;
+}
+
+#progress  li {
+    margin-bottom:50px;
+    background:#e9e5e2;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+    background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: linear-gradient(top, #e1ddd9, #e9e5e2);
+    height:20px;
+    border-radius:10px;
+    -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+    -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+    box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+}
+
+#progress  li h3 {
+    position:relative;
+    top:-25px;
+    left: -50px;
+}
+
+.bar {
+    height:18px;
+    margin:1px 2px;
+    position:absolute;
+    border-radius:10px;
+    -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+    -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+    box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+}
+
+.c {
+    width:100%;
+    -moz-animation:graphic-design 2s ease-out;
+    -webkit-animation:graphic-design 2s ease-out;
+    background-color: #f674a4;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+    background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+    background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+    background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+    background-image: -o-linear-gradient(top, #f674a4, #e06995);
+    background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.cc {
+    width:100%;
+    -moz-animation:html-css 2s ease-out;
+    -webkit-animation:html-css 2s ease-out;
+    background-color: #f0bb4b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+    background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.java {
+    width:90%;
+    -moz-animation:jquery 2s ease-out;
+    -webkit-animation:jquery 2s ease-out;
+    background-color: #a1ce5b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+    background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.javascript {
+    width:75%;
+    -moz-animation:wordpress 2s ease-out;
+    -webkit-animation:wordpress 2s ease-out;
+    background-color: #66b3cc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+    background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+    background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+    background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+    background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+    background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+
+.php {
+    width:80%;
+    -moz-animation:graphic-design 2s ease-out;
+    -webkit-animation:graphic-design 2s ease-out;
+    background-color: #f674a4;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+    background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+    background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+    background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+    background-image: -o-linear-gradient(top, #f674a4, #e06995);
+    background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.dotnet {
+    width:70%;
+    -moz-animation:html-css 2s ease-out;
+    -webkit-animation:html-css 2s ease-out;
+    background-color: #f0bb4b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+    background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.html {
+    width:100%;
+    -moz-animation:jquery 2s ease-out;
+    -webkit-animation:jquery 2s ease-out;
+    background-color: #f674a4;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+    background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+    background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+    background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+    background-image: -o-linear-gradient(top, #f674a4, #e06995);
+    background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.css {
+    width:90%;
+    -moz-animation:wordpress 2s ease-out;
+    -webkit-animation:wordpress 2s ease-out;
+    background-color: #f0bb4b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+    background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.react {
+    width:60%;
+    -moz-animation:graphic-design 2s ease-out;
+    -webkit-animation:graphic-design 2s ease-out;
+    background-color: #a1ce5b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+    background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+    background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.angular {
+    width:50%;
+    -moz-animation:html-css 2s ease-out;
+    -webkit-animation:html-css 2s ease-out;
+    background-color: #66b3cc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+    background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+    background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+    background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+    background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+    background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+
+.bootstrap {
+    width:80%;
+    -moz-animation:jquery 2s ease-out;
+    -webkit-animation:jquery 2s ease-out;
+    background-color: #f674a4;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+    background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+    background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+    background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+    background-image: -o-linear-gradient(top, #f674a4, #e06995);
+    background-image: linear-gradient(top, #f674a4, #e06995);
+
+}
+
+.sql {
+    width:90%;
+    -moz-animation:wordpress 2s ease-out;
+    -webkit-animation:wordpress 2s ease-out;
+    background-color: #f0bb4b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+    background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+
+#qualification
+{
+    background-color:white;
+    width:100%;
+    height:110%;
+}
+
+#projects
+{
+    background-color:#E2F1FE;
+    width:100%;
+    height:110%;
+    clear: both;
+    overflow: hidden;
+}
+
+#experience
+{
+    background-color:white;
+    width:100%;
+    height:110%;
+    clear: both;
+    overflow: hidden;
+}
+
+#contact {
+    background: radial-gradient(ellipse farthest-corner,
+    white, white 40%, #1e90ff 80%, beige);
+    /*background-color:white;*/
+    width: 100%;
+    height: 100%;
+}
+
+.col
+{
+    margin-top: 30px;
+    float:left;
+    width: 390px;
+    height: 550px;
+    border: 2px;
+    border-style: inset;
+}
+
+.divimg
+{
+    width:380px ;
+    height:300px ;
+}
+
+div p
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#thing {
+    margin: 100px;
+    height: 200px;
+    width: 200px;
+    background:#000E1E;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: -webkit-border-radius 0.5s ease-in;
+    -moz-transition: -moz-border-radius 0.5s ease-in;
+    -o-transition: border-radius 0.5s ease-in;
+    -ms-transition: border-radius 0.5s ease-in;
+    transition: border-radius 0.5s ease-in;
+}
+
+.action
+{
+    width:24.5%;
+    height: 420px;
+    float:left;
+    background-image:url("background.jpg");
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.proj
+{
+
+    margin-top: 30px;
+    float:left;
+    width: 28%;
+    height:38%;
+    border: 2px;
+    border-style: outset;
+}
+
+.projimg
+{
+    width:375px ;
+    height:250px ;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 60%;
+    height: 40%;
+}
+
+.overlay {
+    margin-top:2.25%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:90%;
+    width: 60%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#000E1E;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+}
